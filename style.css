@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+
+}
+.navigation-bar{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items:center;
+    grid-gap: 10px;
+    font-size: 2rem;
+    color: tomato;
+
+}
+.navigation-items ul{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navigation-items ul li{
+    width: 100px;
+    padding: 5px 0;
+    margin: 5px;
+    text-align: center;
+    background-color: darkcyan;
+    border-radius: 5px;
+
+}
+.navigation-items ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.hero-sec{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hero,.hero-banner{
+    width: 500px;
+}
+.hero h1{
+    margin: 0 auto;
+    font-size: 4.5em;
+    color: teal;
+    line-height: 1em;
+}
+span{
+    color: tomato;
+    text-decoration: underline;
+}
+.hero-btn{
+    text-decoration: none;
+    border: 1px solid lightslategrey;
+    color: #009696;
+    font-weight: 700;
+    padding: 5px 20px;
+    margin-top: 100px;
+}
+.hero-btn:hover{
+    border: none;
+    background-color: #009696;
+    color: whitesmoke;
+}
+.hero-banner{
+    margin: 0 auto;
+}
+.goal h1{
+    text-align: center;
+    font-size: 2.5em;
+    color:teal ;
+}
+.goal-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.goal-items{
+    width:150px;
+    height: 260px;
+    margin: 20px;
+}
+
+/* Courses Goes Here */
+.course-title{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    color: teal;
+    font-weight: 900;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,300px));
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+.html{
+    display: grid;
+    width: 300px;
+    height: auto;
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.html:hover{
+    box-shadow: 2px 5px 15px grey;
+}
+.courses-head{
+    color:teal ;
+    font-size: 1.5rem;
+}
+.html button{
+    border: none;
+    background-color: #d13014;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.html button:hover{
+    background-color: teal;
+    border: none;
+    color: whitesmoke;
+}
+
+/* video tutorial section  */
+.course-video{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,600px));
+    justify-content: center;
+    text-align: center;
+    grid-row-gap: 5px;
+}
+
+.video{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* mentors Section */
+.mentors-section{
+    margin-bottom: 40px;
+    margin-top : 40px;
+}
+.mentor-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.mentors1{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+
+}
+.mentors-info{
+    margin-left: 15PX;
+}
+.mentors-info>h2{
+    font-size: 2rem;
+    color: teal;
+}
+.mentors-info>div>a{
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid lightslategrey;
+    padding: 5px 10px;
+    color: teal;
+}
+.mentors-info>div>a:hover{
+    background-color: teal;
+    color: whitesmoke;
+    border: none;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-section{
+    margin: 50px 0px;
+}
+.article-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.articles{
+    width: 650px;
+    height:auto;
+    display: flex;
+    flex-shrink: initial;
+    padding: 10px;
+    align-items: center;
+}
+
+.subscription-container{
+    margin: 50px 0px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+.subscribe>h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.input-box{
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border:.5px solid lightsteelblue;
+    border-radius: 40px;
+}
+
+.input-box:hover{
+    box-shadow: 1px 2px 15px rgb(207, 207, 207);
+}
+.partners-container{
+    padding:50px 0px;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.partner-box>h2{
+    font-size: 2rem;
+    color: teal;
+    text-align: center;
+}
+.footer-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    background-color: teal;
+    padding: 40px 0px;
+    color: whitesmoke;
+}
+.footer-container .footer-menu ul li{
+    list-style: none;
+
+}
+.footer-container .footer-menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+}
+/* .footer-contact{
+    margin-left:15px;
+    text-decoration: none;
+    color: whitesmoke;
+} */
+.footer-contact-form form label input{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+
+}
+.submit-button{
+    text-align: left;
+    margin: 5px;
+}
+.submit-button button{
+    width:150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.copyright{
+ text-align: center ;
+ background-color: teal;
+ color: whitesmoke;
+ padding: 20px 0px;
+}
